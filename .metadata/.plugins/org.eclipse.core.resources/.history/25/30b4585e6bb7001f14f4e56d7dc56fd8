@@ -1,0 +1,56 @@
+package Inventario;
+
+public class Produto {
+
+	//Declaramos variaveis
+	String codProd;
+	String nomProd;
+	double valProd;
+	int uniProd;
+	
+	//Criamos os construtores
+	public Produto() {
+		
+	}
+	
+	public Produto(String codProd, String nomProd, double valProd, int uniProd) {
+		this.codProd = codProd;
+		this.nomProd = nomProd;
+		this.valProd = valProd;
+		this.uniProd = uniProd;
+	}
+	
+	//Criamos os setters para cada variavel
+	public void setCodProd(String codProd) {
+		this.codProd = codProd;
+	}
+	
+	public void setNomProd(String nomProd) {
+		this.nomProd = nomProd;
+	}
+	
+	public void setValProd(double valProd) {
+		this.valProd = valProd;
+	}
+	
+	public void setUniProd(int uniProd) {
+		this.uniProd = uniProd;
+	}
+	
+	//Criamos os getters para cada variavel
+	public String getCodProd() {
+		return codProd;
+	}
+	
+	public String getNomProd(){
+		return nomProd;
+	}
+	
+	public double getValProf() {
+		return valProd;
+	}
+	
+	public int getUniProd() {
+		return uniProd;
+	}
+}
