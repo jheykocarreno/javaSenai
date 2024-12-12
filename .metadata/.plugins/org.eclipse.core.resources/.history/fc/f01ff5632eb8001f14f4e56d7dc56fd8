@@ -21,6 +21,7 @@ public class ProductTester {
 		System.out.println (prod4);
 		System.out.println (prod5);
 		System.out.println (prod6);
+		
 	}
 
 }
